@@ -2,7 +2,7 @@
 
 item {
     id: 1
-    name:'Arduino Nano'
+    name:'Arduino_Nano'
 }
 
 item {
@@ -12,10 +12,10 @@ item {
 
 item {
     id: 3
-    name: 'Raspberry Pi 3'
+    name: 'Raspberry_Pi_3'
 }
 
 item {
     id: 4
-    name: 'Heltec ESP32 Lora'
+    name: 'Heltec_ESP32_Lora'
 }
