@@ -29,12 +29,14 @@ FLAGS = flags.FLAGS
 
 # TO-DO replace this with label map
 def class_text_to_int(row_label):
-    if row_label == 'totoro':
-    # if row_label == 'tommad':
+    if row_label == 'Arduino Nano':
         return 1
-    elif row_label == 'nekobus':
-    # elif row_label == 'kk':
+    elif row_label == 'ESP8266':
         return 2
+    elif row_label == 'Raspberry Pi 3':
+        return 3
+    elif row_label == 'Heltec ESP32 Lora':
+        return 4       
     else:
         None
 
